@@ -1,6 +1,7 @@
 Title
-Priority
 Severity
+Priority
+Environment
 Preconditions
 STR
 AR
