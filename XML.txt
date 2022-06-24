@@ -1,0 +1,175 @@
+XML
+
+ 1. Создать внешний репозиторий c названием XML
+
+ 2. Клонировать репозиторий XML на локальный компьютер.
+
+git clone https://github.com/maryrachkovskaya/XML.git
+
+ 3. Внутри локального XML создать файл “new.xml”.
+
+touch new.xml
+
+ 4. Добавить файл под гит.
+
+git status
+
+git add new.xml
+
+ git status
+
+ 5. Закоммитить файл.
+
+git commit -m «add xml file»
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+
+git push
+
+ 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+cat >> new.xml 
+
+<personal information>
+
+  <name=«Mary">
+
+  <age="34">
+
+  <pets="1">
+
+  <salary=1000>
+
+</personal information>
+
+control C
+
+ 8. Отправить изменения на внешний репозиторий.
+
+git status
+
+git add new.xml
+
+ git status
+
+git commit -m «add personal information"
+
+ 9. Создать файл preferences.xml
+
+ 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+touch preferences.xml
+
+cat >>  preferences.xml
+
+<preferences>
+
+  <film=«I origin">
+
+  <soap opera=«Billions">
+
+  <dish="syrniki">
+
+  <season=spring>
+
+ <country=Japan>
+
+</preferences>
+
+control C
+
+ 11. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+
+touch preferences.xml
+
+cat >>  skills.xml
+
+<skills>
+
+<Git bash>
+<Git hub>
+<Клиент-серверная архитектура>
+<Postman>
+<HTTP>
+<HTTPS>
+<API>
+<JSON>
+<XML>
+<Visual studio code>
+<Charles>
+<Fidler>
+<VPN>
+<Мобилное тестирование>
+<Xcode>
+<SQL>
+<Postgres>
+<Redis>
+<Jmeter>
+<Scrum>
+</skills>
+
+control C
+
+ 12. Сделать коммит в одну строку.
+
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+
+git status
+
+git add .
+
+git status
+
+git commit -m «add two files»
+
+git push
+
+ 14. На веб интерфейсе создать файл bug_report.xml.
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+ 16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+git fetch
+
+    18. Синхронизировать внешний и локальный репозиторий XML
+
+git pull
+
+TXT
+
+ 1. Создать внешний репозиторий c названием TXT.
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+
+git clone  
+
+ 3. Внутри локального TXT создать файл “new.txt”.
+
+git touch new.txt
+
+ 4. Добавить файл под гит.
+
+git status
+
+git add new.txt
+
+git status 
+
+ 5. Закоммитить файл.
+
+git commit «add file"
+
+ 6. Отправить файл на внешний GitHub репозиторий.
+
+git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+
+ 8. Отправить изменения на внешний репозиторий.
+
+git fetch
+
+git push
