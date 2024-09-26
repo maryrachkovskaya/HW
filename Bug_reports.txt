@@ -1,9 +1,0 @@
-Title
-Severity
-Priority
-Environment
-Preconditions
-STR
-AR
-ER
-Attachments
